@@ -1,1 +1,33 @@
+Q1
+s/ 
+
+def remove_char(word , c):
+    word_without char =[]
+    for char in word:
+        if char != c.lower() and char != c.upper():
+           word_without_char.append(char)
+return word_without_char
+
+
+Q2 
+S/
+a = int(input('first numbers: '))
+b = int(input('last numbers: '))
+for num in range(a,b+1)
+    if num > 1:
+       for i in range(2,num):
+           if num % i ==0:
+              break 
+       else:
+           print(num)
+
+Q3
+S/
+string = input (" enter a string : ")
+lst = []
+for data in string :
+    if data not in lst:
+       lst.append(data)
+for char in  lst:
+print (string.count(char))
 
